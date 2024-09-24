@@ -1,0 +1,1 @@
+**Note: The cmake macros provided as part of this directory are a one to one copy from eProsima Fast-DDS!**

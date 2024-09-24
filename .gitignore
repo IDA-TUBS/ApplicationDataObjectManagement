@@ -1,0 +1,41 @@
+# Vim
+*.swp
+*.swo
+*Zone.Identifier
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# colcon
+build/
+log/
+examples/ros2/simpleROS2Application/build/
+examples/ros2/simpleROS2Application/install/
+examples/ros2/simpleROS2Application/log/
+CMakeFiles/
+
+# Python
+*.pyc
+
+# Jetbrains
+.idea/
+
+# rviz Screen Capture
+capture/
+
+# CodeChecker
+.codechecker/
+
+# Doxygen
+*.md5
+*.tex
+*.sty
+*.toc
+*.aux
+*.idx
+*.ilg
+*.ind 
+*.log
+*.out
+docs/latex/Makefile

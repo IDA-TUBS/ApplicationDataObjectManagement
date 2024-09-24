@@ -1,0 +1,5 @@
+std_msgs/Header header
+
+application_data_object_management_msgs/ObjectStructure object_structure
+string object_type
+uint16 object_sequence_nr
