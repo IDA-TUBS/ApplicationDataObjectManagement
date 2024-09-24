@@ -4,9 +4,8 @@
 * **LOG=ON** enables logging statements
 * **CONSOLE=ON** Adds a console log
 * **FILE=ON** Adds a file log
-* **EXAMPLE_WITHOUT_LOCALHOST=ON** enables ip addresses other than localhost
 
-Usage: cmake .. -DLOG=ON -DCONSOLE=ON -DFILE=ON -DEXAMPLE_WITHOUT_LOCALHOST=ON in ApplicationDataObjectManagement/build/bin
+Usage: cmake .. -DLOG=ON -DCONSOLE=ON -DFILE=ON in ApplicationDataObjectManagement/build/bin
 
 ## Build command for building the ADOM library
 in ApplicationDataObjectManagement/build/bin:
@@ -33,9 +32,9 @@ source install/setup.bash
 ```
 
 ## Execution of simple ros example
-First make sure you download the provided rosbag and save it in ApplicationDataObjectManagement/examples/ros2/simpleROS2Application/rosbags.
-Find the zipped rosbag here: https://cloud.tu-braunschweig.de/s/RYWdDpzXFTwkd3E
-Then check the configuration of the ip addresses in ApplicationDataObjectManagement/includes/adom/paramaters.h.
+First make sure you download the provided rosbag and save it in ApplicationDataObjectManagement/examples/ros2/simpleROS2Application/rosbags.    
+Find the zipped rosbag here: https://cloud.tu-braunschweig.de/s/RYWdDpzXFTwkd3E.    
+Then check the configuration of the ip addresses in ApplicationDataObjectManagement/includes/adom/paramaters.h.    
 
 in Terminal 1 at Host 1 (Publisher):
 ```
