@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>  
 
-  <node pkg="bag_reader" exec="image_bag_reader"/>
+  <node pkg="bag_reader" exec="image_bag_reader_adom"/>
   <node pkg="bag_reader" exec="roi_bag_reader"/> 
-  <node pkg="roi_reader" exec="simple_roi_reader_dds"/> 
   <node pkg="roi_reader" exec="simple_roi_reader_adom"/> 
   
 </launch>
