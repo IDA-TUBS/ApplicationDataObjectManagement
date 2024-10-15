@@ -3,14 +3,11 @@
 #include <image_transport/image_transport.hpp>
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/image.hpp>
-#include <sensor_msgs/msg/image.hpp>
 #include <tier4_perception_msgs/msg/traffic_light_roi_array.hpp>
 #include <message_filters/subscriber.h>
 #include <message_filters/time_synchronizer.h>
 #include <opencv2/opencv.hpp>
 
-
-#include <adom/log.hpp>
 
 using namespace std::chrono_literals;
 using std::placeholders::_1;

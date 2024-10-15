@@ -32,15 +32,15 @@ enum Topic{
 };
 
 
-const std::string log_directory = "/ApplicationDataObjectManagement/examples/adom_logs/";
+const std::string log_directory = "ApplicationDataObjectManagement/examples/adom_logs/";
 
 // Set the IP addresses to the host addresses on which you launch the ROS2 nodes
-const char publisher_ip[20]    = "192.168.3.100";
-const char subscriber_ip[20]  = "192.168.3.101";
+// const char publisher_ip[20]    = "";
+// const char subscriber_ip[20]  = "";
 
 // If you test the somple application on a single host, you can use the loopback interface
-// const char publisher_ip[20]        = "127.0.0.1";
-// const char subscriber_ip[20]        = "127.0.0.1";
+const char publisher_ip[20]        = "127.0.0.1";
+const char subscriber_ip[20]        = "127.0.0.1";
 
 
 const uint16_t home_dir_ingress_port    = 5400;
