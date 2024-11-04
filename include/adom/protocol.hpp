@@ -9,7 +9,6 @@
 
 #include <adom/parameters.h>
 #include <adom/translation.h>
-#include <adom/debug.h>
 
 using boost::asio::ip::udp;
 
