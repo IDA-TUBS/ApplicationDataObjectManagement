@@ -1,0 +1,19 @@
+{
+    "DIRECTORY_01": {
+      "ENTITY": 0,
+      "ADDRESS": "127.0.0.1",
+      "PORT": 5400,
+      "TOPICS": "IMAGE",
+      "ROLE": "PUBLISHER",
+      "HOST": "KITT"
+    },
+    "DIRECTORY_02": {
+      "ENTITY": 5,
+      "ADDRESS": "127.0.0.1",
+      "PORT": 5402,
+      "TOPICS": "IMAGE",
+      "ROLE": "SUBSCRIBER",
+      "HOST": "BUMBLEBEE"
+    }
+  }
+  
