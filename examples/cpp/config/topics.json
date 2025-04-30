@@ -1,0 +1,15 @@
+{
+  "IMAGE": {
+    "STRUCTURE": {
+      "TYPE": 2,
+      "BLOCK_ROWS": 54,
+      "BLOCK_COLS": 96,
+      "OBJECT_HEIGHT": 1080,
+      "OBJECT_WIDTH": 1920,
+      "OBJECT_CHANNELS": 3
+    },
+    "TOPIC_NR" : 1,
+    "PUBLISHER": ["DIRECTORY_01"],
+    "SUBSCRIBER": ["DIRECTORY_02", "DIRECTORY_03"]
+  }
+}
