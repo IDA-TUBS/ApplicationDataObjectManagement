@@ -1,0 +1,40 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+      "major": 3,
+      "minor": 0,
+      "patch": 0
+    },
+    "configurePresets": [
+      {
+        "name": "default",
+        "description": "Default build preset",
+        "binaryDir": "${sourceDir}/build",
+        "cacheVariables": {
+            "LOG": "ON",
+            "CONSOLE": "ON",
+            "FILE": "ON"
+        }
+      },
+      {
+        "name": "debug",
+        "description": "Debug build",
+        "inherits": "default",
+        "cacheVariables": {
+          "CMAKE_BUILD_TYPE": "Debug",
+          "LOG_LEVEL": "1"
+        }
+      },
+      {
+        "name": "release",
+        "description": "Release build with optimizations",
+        "inherits": "default",
+        "cacheVariables": {
+          "CMAKE_BUILD_TYPE": "Release"
+        }
+      }
+    ],
+    "buildPresets": [],
+    "testPresets": []
+  }
+  
